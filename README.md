@@ -25,7 +25,7 @@ The applications is powered by a **Flask REST API** for backend operations and a
 #### 1. Clone the Repository
 Download or clone the project repository to your local machine:
 ```bash`
-git clone <repository-link>
+git clone <https://bsotalbo224.github.io/TaskTrack>
 cd TaskTrack
 
 #### 2. Set up the Backend
@@ -91,7 +91,7 @@ You can test the API using Postman or curl. Below are some example requests:
 **URL**: `http://127.0.0.1:5000/tasks`
 
 #### Live/Deployed Website
-If the project is deployed, include the link here: Live Website
+If the project is deployed, include the link here: [Live Website](https://bsotalbo224.github.io/TaskTrack)
 
 #### Additional Setup Details
 **Database**
