@@ -91,7 +91,7 @@ You can test the API using Postman or curl. Below are some example requests:
 **URL**: `http://127.0.0.1:5000/tasks`
 
 #### Live/Deployed Website
-If the project is deployed, include the link here: Live Website
+The live version of website is available here: [TaskTrack Live Website] (`https://bsotalbo224.github.io/TaskTrack/`)
 
 #### Additional Setup Details
 **Database**
