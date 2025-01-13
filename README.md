@@ -69,9 +69,9 @@ The server will at **http://127.0.0.1:5000**.
 You can test the API using Postman or curl. Below are some example requests:
 
 ### Add a New Task
-## Method: `POST`
-## URL: `https://tasktrack-oevb.onrender.com/tasks`
-## Body (JSON):
+- **Method**: `POST`
+- **URL**: `https://tasktrack-oevb.onrender.com/tasks`
+  ## Body (JSON):
 ```json
 {
   "title": "string",
@@ -101,9 +101,9 @@ You can test the API using Postman or curl. Below are some example requests:
 ```
 
 ### Retrieve All Task
-## Method: `GET`
-## URL: `https://tasktrack-oevb.onrender.com/tasks`
-## Example Response (JSON):
+- **Method**: `GET`
+- **URL**: `https://tasktrack-oevb.onrender.com/tasks`
+  ## Example Response (JSON):
 ```json
 {
   "id": 1,
@@ -115,9 +115,9 @@ You can test the API using Postman or curl. Below are some example requests:
 ```
 
 ### Update a Task 
-## Method: `PUT`
-## URL: `https://tasktrack-oevb.onrender.com/tasks/${id}`
-## Body (JSON):
+- **Method**: `PUT`
+- **URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
+## Body (JSON)**:
 ```json
 {
   "title": "string",
@@ -148,8 +148,8 @@ You can test the API using Postman or curl. Below are some example requests:
 ```
 
 ### Delete a Task
-## Method: `DELETE`
-## URL: `https://tasktrack-oevb.onrender.com/tasks/${id}`
+- **Method**: `DELETE`
+- **URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
 ## Example Response (JSON):
 ```json
 {
