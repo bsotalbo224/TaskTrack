@@ -11,8 +11,7 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
 - **Description**: Fetches all task.
 
 #### Example Response
-```json`
-[
+```json
   {
     "id": 1,
     "title": "Sample Task",
@@ -20,7 +19,7 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
     "due_date": "2024-12-31",
     "completed": false
   }
-]
+```
 
 ### 2. Add New Task
 - **URL**: `/task`
@@ -28,15 +27,16 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
 - **Description**: Adds a new task to your list.
 
 #### Request Body
- ```json`
+ ```json
 {
   "title": "New Task",
   "description": "This is a new task.",
   "due_date": "2025-2-1"
 }
+```
 
 #### Response Example
-```json`
+```json
 {
   "id": 2,
   "title": "New Task",
@@ -44,6 +44,7 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
   "due_date": "2025-2-1",
   "completed": false
 }
+```
 
 ### 3. Update an Existing Task
 - **URL**: `/task/{id}`
@@ -52,16 +53,17 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
 - **Path Parameter**: id: The ID of the task to update.
 
 #### Request Body
-```json`
+```json
   {
     "title": “Buying Supplies",
     "description": "Go to the Grocery and buy some stuff.",
     "due_date": "2025-2-2",
     "completed": “true”
   }
+```
 
 #### Response Example
-```json`
+```json
 {
     "id": 2,
     "title": " Buying Supplies ",
@@ -69,6 +71,7 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
     "due_date": "2025-2-2",
     "completed": true
   }
+```
 
 ### 4. Delete a Task
 - **URL**: `/task/{id}`
@@ -77,10 +80,11 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
 - **Path Parameter**: id: The ID of the task to delete.
 
 #### Response Example
-```json`
+```json
 {
   "message": "Task deleted"
 }
+```
 
 ## Authentication
 No authentication is required for this API.
