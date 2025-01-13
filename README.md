@@ -181,4 +181,6 @@ TaskTrackProject/
 ```
 
 ## Connect to the Devs
-- GitHub: [@bsotalbo224](https://github.com/bsotalbo224)
+- [Sotalbo Benedict, BSIT Student](https://github.com/bsotalbo224)
+- [Gavia Paul Dustin, BSIT Student](https://www.facebook.com/pauldustin.gavia)
+- [Cafirma Orion Russbher, BSIT] (https://www.facebook.com/orionrussbher.cafirma)
