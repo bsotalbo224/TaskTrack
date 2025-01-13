@@ -63,7 +63,15 @@ You can test the API using Postman or curl. Below are some example requests:
 ### Add a New Task
 **Method**: `POST`
 **URL**: `https://tasktrack-oevb.onrender.com/tasks`
-**Body (JSON)**:
+## Body (JSON):
+```json`
+{
+  "title": "string",
+  "description": "string",
+  "due_date": "date"
+}
+
+## Example Request:
 ```json`
 {
   "title": "Test Task",
@@ -71,24 +79,66 @@ You can test the API using Postman or curl. Below are some example requests:
   "due_date": "2024-12-31"
 }
 
+## Example Response:
+```json`
+{
+  "id": "1"
+  "title": "Test Task",
+  "description": "A sample task description.",
+  "due_date": "2024-12-31",
+  "completed": false
+}
+
 ### Retrieve All Task
 **Method**: `GET`
 **URL**: `https://tasktrack-oevb.onrender.com/tasks`
-### Update a Task 
-**Method**: `PUT`
-**URL**: `https://tasktrack-oevb.onrender.com/tasks/{id}`
-**Body (JSON)**:
+## Example Response (JSON):
 ```json`
 {
-  "title": "Updated Task",
-  "description": "Updated description.",
-  "due_date": "2025-01-01",
+  "id": 1,
+  "title": "Sample Task",
+  "description": "A sample task description.",
+  "due_date": "2024-12-31",
+  "completed": false
+}
+### Update a Task 
+**Method**: `PUT`
+**URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
+## Body (JSON):
+```json`
+{
+  "title": "string",
+  "description": "string",
+  "due_date": "date",
+  "completed": boolean
+}
+
+## Example Request:
+```json`
+{
+  "title": "Updated",
+  "description": "An Updated task description.",
+  "due_date": "2024-12-31",
   "completed": true
+}
+
+## Example Response:
+```json`
+{
+  "id": 1,
+  "title": "Updated",
+  "description": "An Updated task description.",
+  "due_date": "2024-12-31"
 }
 
 ### Delete a Task
 **Method**: `DELETE`
-**URL**: `https://tasktrack-oevb.onrender.com/tasks/{id}`
+**URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
+## Example Response (JSON):
+```json`
+{
+    "message": "Task deleted"
+}
 
 #### Live/Deployed Website
 The live version of website is available here: [TaskTrack Live Website] (https://bsotalbo224.github.io/TaskTrack/)
