@@ -179,3 +179,6 @@ TaskTrackProject/
 ├── API_DOC.md
 ├── README.md
 ```
+
+## Connect to the Devs
+- GitHub: [@bsotalbo224](https://github.com/bsotalbo224)
