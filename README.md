@@ -123,7 +123,7 @@ You can test the API using Postman or curl. Below are some example requests:
   "title": "string",
   "description": "string",
   "due_date": "date",
-  "completed": boolean
+  "completed": false
 }
 ```
 
