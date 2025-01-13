@@ -71,7 +71,7 @@ You can test the API using Postman or curl. Below are some example requests:
 ### Add a New Task
 - **Method**: `POST`
 - **URL**: `https://tasktrack-oevb.onrender.com/tasks`
-  ## Body (JSON):
+## Body (JSON):
 ```json
 {
   "title": "string",
@@ -117,7 +117,7 @@ You can test the API using Postman or curl. Below are some example requests:
 ### Update a Task 
 - **Method**: `PUT`
 - **URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
-## Body (JSON)**:
+## Body (JSON):
 ```json
 {
   "title": "string",
