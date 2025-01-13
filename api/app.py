@@ -28,4 +28,4 @@ api.add_resource(TaskListResource, '/tasks')  # Changed to /tasks to match front
 api.add_resource(TaskResource, '/tasks/<int:task_id>')  # Changed to /tasks to match frontend
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
