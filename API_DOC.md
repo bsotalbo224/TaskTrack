@@ -55,7 +55,7 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
 #### Request Body
 ```json
   {
-    "title": “Buying Supplies",
+    "title": "Buying Supplies",
     "description": "Go to the Grocery and buy some stuff.",
     "due_date": "2025-2-2",
     "completed": true
@@ -66,7 +66,7 @@ The TaskTrack API allows users to create, retrieve, update, and delete tasks. Ea
 ```json
 {
     "id": 2,
-    "title": " Buying Supplies",
+    "title": "Buying Supplies",
     "description": " Go to the Grocery and buy some stuff.",
     "due_date": "2025-2-2",
     "completed": true
