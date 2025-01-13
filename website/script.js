@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadTasks() {
         try {
-            const response = await fetch('http://127.0.0.1:5000/tasks');
+            const response = await fetch('https://tasktrack-oevb.onrender.com/tasks');
             const tasks = await response.json(); // The response is now a plain array
             if (!tasks) {
                 console.error('No tasks found in the response:', data);
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/tasks', {
+            const response = await fetch('https://tasktrack-oevb.onrender.com/tasks', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function toggleTaskCompletion(taskId, taskItem) {
         try {
             const completed = !taskItem.classList.contains('completed');
-            const response = await fetch(`http://127.0.0.1:5000/tasks/${taskId}`, {
+            const response = await fetch(`https://tasktrack-oevb.onrender.com/${taskId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
