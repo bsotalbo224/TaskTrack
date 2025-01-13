@@ -24,31 +24,31 @@ The applications is powered by a **Flask REST API** for backend operations and a
 ### Step-by-Step Instructions
 #### 1. Clone the Repository
 Download or clone the project repository to your local machine:
-```bash`
+```bash
 git clone <repository-link>
 cd TaskTrack
 
 #### 2. Set up the Backend
  1. Navigate to the backend folder:
-    ```bash`
+    ```bash
         cd backend
  
  2. Create a virtual environment:
-    ```bash`
+    ```bash
         python -m venv venv
  3. Activate the virtual environment:
     **Windows**
-    ```bash`
+    ```bash
     .\venv\Scripts\Activate
 
     **Mac/Linux**
     ```bash`
     source venv/bin/activate
  4. Install the dependencies:
-    ```bash`
+    ```bash
     pip install -r requirements.txt
  5. Start the Flask server:
-    ```bash`
+    ```bash
     python app.py
 The server will at **http://127.0.0.1:5000**.
 
@@ -61,10 +61,10 @@ The server will at **http://127.0.0.1:5000**.
 You can test the API using Postman or curl. Below are some example requests:
 
 ### Add a New Task
-**Method**: `POST`
-**URL**: `https://tasktrack-oevb.onrender.com/tasks`
+## Method: `POST`
+## URL: `https://tasktrack-oevb.onrender.com/tasks`
 ## Body (JSON):
-```json`
+```json
 {
   "title": "string",
   "description": "string",
@@ -72,7 +72,7 @@ You can test the API using Postman or curl. Below are some example requests:
 }
 
 ## Example Request:
-```json`
+```json
 {
   "title": "Test Task",
   "description": "A sample task description.",
@@ -80,7 +80,7 @@ You can test the API using Postman or curl. Below are some example requests:
 }
 
 ## Example Response:
-```json`
+```json
 {
   "id": "1"
   "title": "Test Task",
@@ -90,10 +90,10 @@ You can test the API using Postman or curl. Below are some example requests:
 }
 
 ### Retrieve All Task
-**Method**: `GET`
-**URL**: `https://tasktrack-oevb.onrender.com/tasks`
+## Method: `GET`
+## URL: `https://tasktrack-oevb.onrender.com/tasks`
 ## Example Response (JSON):
-```json`
+```json
 {
   "id": 1,
   "title": "Sample Task",
@@ -102,10 +102,10 @@ You can test the API using Postman or curl. Below are some example requests:
   "completed": false
 }
 ### Update a Task 
-**Method**: `PUT`
-**URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
+## Method: `PUT`
+## URL: `https://tasktrack-oevb.onrender.com/tasks/${id}`
 ## Body (JSON):
-```json`
+```json
 {
   "title": "string",
   "description": "string",
@@ -114,7 +114,7 @@ You can test the API using Postman or curl. Below are some example requests:
 }
 
 ## Example Request:
-```json`
+```json
 {
   "title": "Updated",
   "description": "An Updated task description.",
@@ -123,7 +123,7 @@ You can test the API using Postman or curl. Below are some example requests:
 }
 
 ## Example Response:
-```json`
+```json
 {
   "id": 1,
   "title": "Updated",
@@ -132,10 +132,10 @@ You can test the API using Postman or curl. Below are some example requests:
 }
 
 ### Delete a Task
-**Method**: `DELETE`
-**URL**: `https://tasktrack-oevb.onrender.com/tasks/${id}`
+## Method: `DELETE`
+## URL: `https://tasktrack-oevb.onrender.com/tasks/${id}`
 ## Example Response (JSON):
-```json`
+```json
 {
     "message": "Task deleted"
 }
