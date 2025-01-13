@@ -62,7 +62,7 @@ You can test the API using Postman or curl. Below are some example requests:
 
 ### Add a New Task
 **Method**: `POST`
-**URL**: `https://tasktrack-oevb.onrender.com)/tasks`
+**URL**: `https://tasktrack-oevb.onrender.com/tasks`
 **Body (JSON)**:
 ```json`
 {
@@ -73,10 +73,10 @@ You can test the API using Postman or curl. Below are some example requests:
 
 ### Retrieve All Task
 **Method**: `GET`
-**URL**: `https://tasktrack-oevb.onrender.com)/tasks`
+**URL**: `https://tasktrack-oevb.onrender.com/tasks`
 ### Update a Task 
 **Method**: `PUT`
-**URL**: `https://tasktrack-oevb.onrender.com)/tasks`
+**URL**: `https://tasktrack-oevb.onrender.com/tasks`
 **Body (JSON)**:
 ```json`
 {
@@ -88,7 +88,7 @@ You can test the API using Postman or curl. Below are some example requests:
 
 ### Delete a Task
 **Method**: `DELETE`
-**URL**: `https://tasktrack-oevb.onrender.com)/tasks`
+**URL**: `https://tasktrack-oevb.onrender.com/tasks`
 
 #### Live/Deployed Website
 The live version of website is available here: [TaskTrack Live Website] (https://bsotalbo224.github.io/TaskTrack/)
